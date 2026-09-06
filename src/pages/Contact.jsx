@@ -79,7 +79,7 @@ export const Contact = () => {
 
                                 <div className="relative h-40 w-40 overflow-hidden border border-emerald-400/30 bg-black">
                                     <img
-                                        src="/games/admin.jpeg"
+                                        src="/gamer-icon.png"
                                         alt="Admin"
                                         className="h-full w-full object-cover"
                                     />
@@ -96,7 +96,7 @@ export const Contact = () => {
                             <div className="mt-7 text-center">
 
                                 <h2 className="font-mono text-2xl font-black uppercase">
-                                    ME!
+                                    XOXO!
                                 </h2>
 
                                 <p className="mt-2 font-mono text-[9px] uppercase tracking-[0.25em] text-emerald-400">
