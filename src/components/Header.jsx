@@ -298,27 +298,49 @@ const Header = () => {
             </NavLink>
 
 
-            {/* Dashboard */}
+            {/* products */}
             {user && (
               <NavLink
-                to="/dashboard"
+                to="/games"
                 onClick={() => setMobileOpen(false)}
                 className={navLinkClass}
               >
                 <span className="mr-2 text-emerald-400">&gt;</span>
-                Dashboard
+                Game
+              </NavLink>
+            )}
+
+            {/* products */}
+            {user && (
+              <NavLink
+                to="/shopping"
+                onClick={() => setMobileOpen(false)}
+                className={navLinkClass}
+              >
+                <span className="mr-2 text-emerald-400">&gt;</span>
+                Products
               </NavLink>
             )}
 
 
-            {/* About */}
+            {/* support */}
             <NavLink
-              to="/about"
+              to="/support"
               onClick={() => setMobileOpen(false)}
               className={navLinkClass}
             >
               <span className="mr-2 text-emerald-400">&gt;</span>
-              About
+              Support
+            </NavLink>
+
+            {/* contact */}
+            <NavLink
+              to="/contact"
+              onClick={() => setMobileOpen(false)}
+              className={navLinkClass}
+            >
+              <span className="mr-2 text-emerald-400">&gt;</span>
+              Contact
             </NavLink>
 
 
@@ -330,7 +352,7 @@ const Header = () => {
               <>
 
                 <Link
-                  to="/profile"
+                  to="/home"
                   onClick={() => setMobileOpen(false)}
                   className="
                   flex items-center gap-3
